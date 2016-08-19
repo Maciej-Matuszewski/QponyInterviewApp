@@ -16,7 +16,7 @@
 		147056B01D67687F00C0F74B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056AE1D67687F00C0F74B /* Extensions.swift */; };
 		147056B51D67695200C0F74B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056B31D67695200C0F74B /* Network.swift */; };
 		147056B61D67695200C0F74B /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056B41D67695200C0F74B /* ErrorHandler.swift */; };
-		147056B91D67697300C0F74B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056B81D67697300C0F74B /* UserModel.swift */; };
+		147056B91D67697300C0F74B /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056B81D67697300C0F74B /* WeatherModel.swift */; };
 		147056BC1D676CCB00C0F74B /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056BB1D676CCB00C0F74B /* WeatherViewController.swift */; };
 		505B37579B31D32C3A2BCCAE /* Pods_QponyInterviewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0398878FD896FB462C64253 /* Pods_QponyInterviewApp.framework */; };
 /* End PBXBuildFile section */
@@ -55,7 +55,7 @@
 		147056AE1D67687F00C0F74B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		147056B31D67695200C0F74B /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		147056B41D67695200C0F74B /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
-		147056B81D67697300C0F74B /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		147056B81D67697300C0F74B /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		147056BB1D676CCB00C0F74B /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		2D736EFAE2B41AE63FCC872F /* Pods-QponyInterviewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QponyInterviewApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QponyInterviewApp/Pods-QponyInterviewApp.release.xcconfig"; sourceTree = "<group>"; };
 		F0398878FD896FB462C64253 /* Pods_QponyInterviewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QponyInterviewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,7 +171,7 @@
 		147056BA1D67697800C0F74B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				147056B81D67697300C0F74B /* UserModel.swift */,
+				147056B81D67697300C0F74B /* WeatherModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -388,7 +388,7 @@
 				147056B01D67687F00C0F74B /* Extensions.swift in Sources */,
 				147056B61D67695200C0F74B /* ErrorHandler.swift in Sources */,
 				147056B51D67695200C0F74B /* Network.swift in Sources */,
-				147056B91D67697300C0F74B /* UserModel.swift in Sources */,
+				147056B91D67697300C0F74B /* WeatherModel.swift in Sources */,
 				147056801D6766F700C0F74B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
