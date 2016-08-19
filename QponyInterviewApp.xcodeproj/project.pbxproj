@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		147056801D6766F700C0F74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1470567F1D6766F700C0F74B /* AppDelegate.swift */; };
-		147056821D6766F700C0F74B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056811D6766F700C0F74B /* ViewController.swift */; };
-		147056851D6766F700C0F74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147056831D6766F700C0F74B /* Main.storyboard */; };
 		147056871D6766F700C0F74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147056861D6766F700C0F74B /* Assets.xcassets */; };
 		1470568A1D6766F700C0F74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147056881D6766F700C0F74B /* LaunchScreen.storyboard */; };
 		147056951D6766F800C0F74B /* QponyInterviewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056941D6766F800C0F74B /* QponyInterviewAppTests.swift */; };
 		147056A01D6766F800C0F74B /* QponyInterviewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1470569F1D6766F800C0F74B /* QponyInterviewAppUITests.swift */; };
+		147056AF1D67687F00C0F74B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056AD1D67687F00C0F74B /* Constants.swift */; };
+		147056B01D67687F00C0F74B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056AE1D67687F00C0F74B /* Extensions.swift */; };
+		147056B51D67695200C0F74B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056B31D67695200C0F74B /* Network.swift */; };
+		147056B61D67695200C0F74B /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056B41D67695200C0F74B /* ErrorHandler.swift */; };
+		147056B91D67697300C0F74B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056B81D67697300C0F74B /* UserModel.swift */; };
+		147056BC1D676CCB00C0F74B /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056BB1D676CCB00C0F74B /* WeatherViewController.swift */; };
+		505B37579B31D32C3A2BCCAE /* Pods_QponyInterviewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0398878FD896FB462C64253 /* Pods_QponyInterviewApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		111E231BA26F8E5CC9BAE8AF /* Pods-QponyInterviewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QponyInterviewApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QponyInterviewApp/Pods-QponyInterviewApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1470567C1D6766F700C0F74B /* QponyInterviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QponyInterviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1470567F1D6766F700C0F74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		147056811D6766F700C0F74B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		147056841D6766F700C0F74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		147056861D6766F700C0F74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147056891D6766F700C0F74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1470568B1D6766F700C0F74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		1470569B1D6766F800C0F74B /* QponyInterviewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QponyInterviewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1470569F1D6766F800C0F74B /* QponyInterviewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QponyInterviewAppUITests.swift; sourceTree = "<group>"; };
 		147056A11D6766F800C0F74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147056AD1D67687F00C0F74B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		147056AE1D67687F00C0F74B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		147056B31D67695200C0F74B /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		147056B41D67695200C0F74B /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		147056B81D67697300C0F74B /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		147056BB1D676CCB00C0F74B /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		2D736EFAE2B41AE63FCC872F /* Pods-QponyInterviewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QponyInterviewApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QponyInterviewApp/Pods-QponyInterviewApp.release.xcconfig"; sourceTree = "<group>"; };
+		F0398878FD896FB462C64253 /* Pods_QponyInterviewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QponyInterviewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505B37579B31D32C3A2BCCAE /* Pods_QponyInterviewApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,8 @@
 				147056931D6766F800C0F74B /* QponyInterviewAppTests */,
 				1470569E1D6766F800C0F74B /* QponyInterviewAppUITests */,
 				1470567D1D6766F700C0F74B /* Products */,
+				F731DD38D8BC79636E1B6592 /* Pods */,
+				320E46A49C848B33868F7B96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +112,11 @@
 		1470567E1D6766F700C0F74B /* QponyInterviewApp */ = {
 			isa = PBXGroup;
 			children = (
-				1470567F1D6766F700C0F74B /* AppDelegate.swift */,
-				147056811D6766F700C0F74B /* ViewController.swift */,
-				147056831D6766F700C0F74B /* Main.storyboard */,
-				147056861D6766F700C0F74B /* Assets.xcassets */,
-				147056881D6766F700C0F74B /* LaunchScreen.storyboard */,
-				1470568B1D6766F700C0F74B /* Info.plist */,
+				147056B11D6768DE00C0F74B /* Config */,
+				147056BD1D676CD300C0F74B /* ViewControllers */,
+				147056BA1D67697800C0F74B /* Models */,
+				147056B71D67695A00C0F74B /* Network */,
+				147056B21D6768E800C0F74B /* Resources */,
 			);
 			path = QponyInterviewApp;
 			sourceTree = "<group>";
@@ -125,6 +139,68 @@
 			path = QponyInterviewAppUITests;
 			sourceTree = "<group>";
 		};
+		147056B11D6768DE00C0F74B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1470567F1D6766F700C0F74B /* AppDelegate.swift */,
+				147056AD1D67687F00C0F74B /* Constants.swift */,
+				147056AE1D67687F00C0F74B /* Extensions.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		147056B21D6768E800C0F74B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				147056861D6766F700C0F74B /* Assets.xcassets */,
+				147056881D6766F700C0F74B /* LaunchScreen.storyboard */,
+				1470568B1D6766F700C0F74B /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		147056B71D67695A00C0F74B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				147056B31D67695200C0F74B /* Network.swift */,
+				147056B41D67695200C0F74B /* ErrorHandler.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		147056BA1D67697800C0F74B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				147056B81D67697300C0F74B /* UserModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		147056BD1D676CD300C0F74B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				147056BB1D676CCB00C0F74B /* WeatherViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		320E46A49C848B33868F7B96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0398878FD896FB462C64253 /* Pods_QponyInterviewApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F731DD38D8BC79636E1B6592 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				111E231BA26F8E5CC9BAE8AF /* Pods-QponyInterviewApp.debug.xcconfig */,
+				2D736EFAE2B41AE63FCC872F /* Pods-QponyInterviewApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 147056A41D6766F800C0F74B /* Build configuration list for PBXNativeTarget "QponyInterviewApp" */;
 			buildPhases = (
+				C829EC8658306A28E5B9A9ED /* [CP] Check Pods Manifest.lock */,
 				147056781D6766F700C0F74B /* Sources */,
 				147056791D6766F700C0F74B /* Frameworks */,
 				1470567A1D6766F700C0F74B /* Resources */,
+				E2B36E8A67BB039A0EFF1173 /* [CP] Embed Pods Frameworks */,
+				F8CE41237E28A161272B76A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +272,7 @@
 				TargetAttributes = {
 					1470567B1D6766F700C0F74B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TLA9984P8M;
 					};
 					1470568F1D6766F800C0F74B = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -231,7 +311,6 @@
 			files = (
 				1470568A1D6766F700C0F74B /* LaunchScreen.storyboard in Resources */,
 				147056871D6766F700C0F74B /* Assets.xcassets in Resources */,
-				147056851D6766F700C0F74B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +330,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C829EC8658306A28E5B9A9ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B36E8A67BB039A0EFF1173 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QponyInterviewApp/Pods-QponyInterviewApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8CE41237E28A161272B76A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QponyInterviewApp/Pods-QponyInterviewApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		147056781D6766F700C0F74B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				147056821D6766F700C0F74B /* ViewController.swift in Sources */,
+				147056BC1D676CCB00C0F74B /* WeatherViewController.swift in Sources */,
+				147056AF1D67687F00C0F74B /* Constants.swift in Sources */,
+				147056B01D67687F00C0F74B /* Extensions.swift in Sources */,
+				147056B61D67695200C0F74B /* ErrorHandler.swift in Sources */,
+				147056B51D67695200C0F74B /* Network.swift in Sources */,
+				147056B91D67697300C0F74B /* UserModel.swift in Sources */,
 				147056801D6766F700C0F74B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +425,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		147056831D6766F700C0F74B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				147056841D6766F700C0F74B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		147056881D6766F700C0F74B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -397,8 +521,10 @@
 		};
 		147056A51D6766F800C0F74B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111E231BA26F8E5CC9BAE8AF /* Pods-QponyInterviewApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QponyInterviewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matuszewski.QponyInterviewApp;
@@ -408,8 +534,10 @@
 		};
 		147056A61D6766F800C0F74B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D736EFAE2B41AE63FCC872F /* Pods-QponyInterviewApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QponyInterviewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matuszewski.QponyInterviewApp;
@@ -482,6 +610,7 @@
 				147056A61D6766F800C0F74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		147056A71D6766F800C0F74B /* Build configuration list for PBXNativeTarget "QponyInterviewAppTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +619,7 @@
 				147056A91D6766F800C0F74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		147056AA1D6766F800C0F74B /* Build configuration list for PBXNativeTarget "QponyInterviewAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +628,7 @@
 				147056AC1D6766F800C0F74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
