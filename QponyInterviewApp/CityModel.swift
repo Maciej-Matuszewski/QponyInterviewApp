@@ -1,5 +1,5 @@
 //
-//  WeatherModel.swift
+//  CityModel.swift
 //  QponyInterviewApp
 //
 //  Created by Maciej Matuszewski on 19.08.2016.
@@ -8,13 +8,10 @@
 
 import ObjectMapper
 
-class WeatherModel: Mappable{
+class CityModel: Mappable{
     
     var id: Int?
-    var main: String?
-    var description: String?
-    var icon: String?
-    
+    var name: String?
     
     // MARK: - Init
     required init?(_ map: Map) {
@@ -22,8 +19,6 @@ class WeatherModel: Mappable{
     
     func mapping(map: Map) {
         id <- map["id"]
-        main <- map["main"]
-        description <- map["description"]
-        icon <- map["icon"]
+        name <- map["name"]
     }
 }
