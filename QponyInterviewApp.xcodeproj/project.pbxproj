@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147056801D6766F700C0F74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1470567F1D6766F700C0F74B /* AppDelegate.swift */; };
+		147056821D6766F700C0F74B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056811D6766F700C0F74B /* ViewController.swift */; };
+		147056851D6766F700C0F74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147056831D6766F700C0F74B /* Main.storyboard */; };
+		147056871D6766F700C0F74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147056861D6766F700C0F74B /* Assets.xcassets */; };
+		1470568A1D6766F700C0F74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147056881D6766F700C0F74B /* LaunchScreen.storyboard */; };
+		147056951D6766F800C0F74B /* QponyInterviewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147056941D6766F800C0F74B /* QponyInterviewAppTests.swift */; };
+		147056A01D6766F800C0F74B /* QponyInterviewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1470569F1D6766F800C0F74B /* QponyInterviewAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147056911D6766F800C0F74B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147056741D6766F700C0F74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1470567B1D6766F700C0F74B;
+			remoteInfo = QponyInterviewApp;
+		};
+		1470569C1D6766F800C0F74B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 147056741D6766F700C0F74B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1470567B1D6766F700C0F74B;
+			remoteInfo = QponyInterviewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1470567C1D6766F700C0F74B /* QponyInterviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QponyInterviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1470567F1D6766F700C0F74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		147056811D6766F700C0F74B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		147056841D6766F700C0F74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147056861D6766F700C0F74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		147056891D6766F700C0F74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1470568B1D6766F700C0F74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147056901D6766F800C0F74B /* QponyInterviewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QponyInterviewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		147056941D6766F800C0F74B /* QponyInterviewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QponyInterviewAppTests.swift; sourceTree = "<group>"; };
+		147056961D6766F800C0F74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1470569B1D6766F800C0F74B /* QponyInterviewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QponyInterviewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1470569F1D6766F800C0F74B /* QponyInterviewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QponyInterviewAppUITests.swift; sourceTree = "<group>"; };
+		147056A11D6766F800C0F74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147056791D6766F700C0F74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1470568D1D6766F800C0F74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147056981D6766F800C0F74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147056731D6766F700C0F74B = {
+			isa = PBXGroup;
+			children = (
+				1470567E1D6766F700C0F74B /* QponyInterviewApp */,
+				147056931D6766F800C0F74B /* QponyInterviewAppTests */,
+				1470569E1D6766F800C0F74B /* QponyInterviewAppUITests */,
+				1470567D1D6766F700C0F74B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1470567D1D6766F700C0F74B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1470567C1D6766F700C0F74B /* QponyInterviewApp.app */,
+				147056901D6766F800C0F74B /* QponyInterviewAppTests.xctest */,
+				1470569B1D6766F800C0F74B /* QponyInterviewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1470567E1D6766F700C0F74B /* QponyInterviewApp */ = {
+			isa = PBXGroup;
+			children = (
+				1470567F1D6766F700C0F74B /* AppDelegate.swift */,
+				147056811D6766F700C0F74B /* ViewController.swift */,
+				147056831D6766F700C0F74B /* Main.storyboard */,
+				147056861D6766F700C0F74B /* Assets.xcassets */,
+				147056881D6766F700C0F74B /* LaunchScreen.storyboard */,
+				1470568B1D6766F700C0F74B /* Info.plist */,
+			);
+			path = QponyInterviewApp;
+			sourceTree = "<group>";
+		};
+		147056931D6766F800C0F74B /* QponyInterviewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				147056941D6766F800C0F74B /* QponyInterviewAppTests.swift */,
+				147056961D6766F800C0F74B /* Info.plist */,
+			);
+			path = QponyInterviewAppTests;
+			sourceTree = "<group>";
+		};
+		1470569E1D6766F800C0F74B /* QponyInterviewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1470569F1D6766F800C0F74B /* QponyInterviewAppUITests.swift */,
+				147056A11D6766F800C0F74B /* Info.plist */,
+			);
+			path = QponyInterviewAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1470567B1D6766F700C0F74B /* QponyInterviewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147056A41D6766F800C0F74B /* Build configuration list for PBXNativeTarget "QponyInterviewApp" */;
+			buildPhases = (
+				147056781D6766F700C0F74B /* Sources */,
+				147056791D6766F700C0F74B /* Frameworks */,
+				1470567A1D6766F700C0F74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QponyInterviewApp;
+			productName = QponyInterviewApp;
+			productReference = 1470567C1D6766F700C0F74B /* QponyInterviewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1470568F1D6766F800C0F74B /* QponyInterviewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147056A71D6766F800C0F74B /* Build configuration list for PBXNativeTarget "QponyInterviewAppTests" */;
+			buildPhases = (
+				1470568C1D6766F800C0F74B /* Sources */,
+				1470568D1D6766F800C0F74B /* Frameworks */,
+				1470568E1D6766F800C0F74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				147056921D6766F800C0F74B /* PBXTargetDependency */,
+			);
+			name = QponyInterviewAppTests;
+			productName = QponyInterviewAppTests;
+			productReference = 147056901D6766F800C0F74B /* QponyInterviewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1470569A1D6766F800C0F74B /* QponyInterviewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147056AA1D6766F800C0F74B /* Build configuration list for PBXNativeTarget "QponyInterviewAppUITests" */;
+			buildPhases = (
+				147056971D6766F800C0F74B /* Sources */,
+				147056981D6766F800C0F74B /* Frameworks */,
+				147056991D6766F800C0F74B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1470569D1D6766F800C0F74B /* PBXTargetDependency */,
+			);
+			name = QponyInterviewAppUITests;
+			productName = QponyInterviewAppUITests;
+			productReference = 1470569B1D6766F800C0F74B /* QponyInterviewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147056741D6766F700C0F74B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Maciej Matuszewski";
+				TargetAttributes = {
+					1470567B1D6766F700C0F74B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1470568F1D6766F800C0F74B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1470567B1D6766F700C0F74B;
+					};
+					1470569A1D6766F800C0F74B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1470567B1D6766F700C0F74B;
+					};
+				};
+			};
+			buildConfigurationList = 147056771D6766F700C0F74B /* Build configuration list for PBXProject "QponyInterviewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147056731D6766F700C0F74B;
+			productRefGroup = 1470567D1D6766F700C0F74B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1470567B1D6766F700C0F74B /* QponyInterviewApp */,
+				1470568F1D6766F800C0F74B /* QponyInterviewAppTests */,
+				1470569A1D6766F800C0F74B /* QponyInterviewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1470567A1D6766F700C0F74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1470568A1D6766F700C0F74B /* LaunchScreen.storyboard in Resources */,
+				147056871D6766F700C0F74B /* Assets.xcassets in Resources */,
+				147056851D6766F700C0F74B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1470568E1D6766F800C0F74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147056991D6766F800C0F74B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147056781D6766F700C0F74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147056821D6766F700C0F74B /* ViewController.swift in Sources */,
+				147056801D6766F700C0F74B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1470568C1D6766F800C0F74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147056951D6766F800C0F74B /* QponyInterviewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		147056971D6766F800C0F74B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147056A01D6766F800C0F74B /* QponyInterviewAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147056921D6766F800C0F74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1470567B1D6766F700C0F74B /* QponyInterviewApp */;
+			targetProxy = 147056911D6766F800C0F74B /* PBXContainerItemProxy */;
+		};
+		1470569D1D6766F800C0F74B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1470567B1D6766F700C0F74B /* QponyInterviewApp */;
+			targetProxy = 1470569C1D6766F800C0F74B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		147056831D6766F700C0F74B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147056841D6766F700C0F74B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		147056881D6766F700C0F74B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147056891D6766F700C0F74B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147056A21D6766F800C0F74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		147056A31D6766F800C0F74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147056A51D6766F800C0F74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QponyInterviewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matuszewski.QponyInterviewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		147056A61D6766F800C0F74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QponyInterviewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matuszewski.QponyInterviewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		147056A81D6766F800C0F74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QponyInterviewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matuszewski.QponyInterviewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QponyInterviewApp.app/QponyInterviewApp";
+			};
+			name = Debug;
+		};
+		147056A91D6766F800C0F74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QponyInterviewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matuszewski.QponyInterviewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QponyInterviewApp.app/QponyInterviewApp";
+			};
+			name = Release;
+		};
+		147056AB1D6766F800C0F74B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QponyInterviewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matuszewski.QponyInterviewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QponyInterviewApp;
+			};
+			name = Debug;
+		};
+		147056AC1D6766F800C0F74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QponyInterviewAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matuszewski.QponyInterviewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QponyInterviewApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147056771D6766F700C0F74B /* Build configuration list for PBXProject "QponyInterviewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147056A21D6766F800C0F74B /* Debug */,
+				147056A31D6766F800C0F74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147056A41D6766F800C0F74B /* Build configuration list for PBXNativeTarget "QponyInterviewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147056A51D6766F800C0F74B /* Debug */,
+				147056A61D6766F800C0F74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		147056A71D6766F800C0F74B /* Build configuration list for PBXNativeTarget "QponyInterviewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147056A81D6766F800C0F74B /* Debug */,
+				147056A91D6766F800C0F74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		147056AA1D6766F800C0F74B /* Build configuration list for PBXNativeTarget "QponyInterviewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147056AB1D6766F800C0F74B /* Debug */,
+				147056AC1D6766F800C0F74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147056741D6766F700C0F74B /* Project object */;
+}
