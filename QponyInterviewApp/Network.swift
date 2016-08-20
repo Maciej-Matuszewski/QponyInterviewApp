@@ -88,9 +88,9 @@ extension NSMutableURLRequest {
 	}
 	
 	func responseObject<T:Mappable>(completion: (T?, NSError?) -> Void) {
-		print(Alamofire.request(self).responseObject {
+		Alamofire.request(self).responseObject {
 			(response: Response<T, NSError>) in
 			completion(response.result.value, response.result.error)
-		}.debugDescription)
+		}
 	}
 }

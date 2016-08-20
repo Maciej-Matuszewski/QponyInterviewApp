@@ -14,18 +14,14 @@ struct Constants {
     //MARK:- Colors
     
     static let kColorMain = UIColor(red:0.09, green:1.00, blue:0.76, alpha:1.00)
-    static let kColorBackground = UIColor(red:0.06, green:0.08, blue:0.14, alpha:1.00)
-    static let kColorNavigation = UIColor(red:0.10, green:0.18, blue:0.19, alpha:1.00)
-    static let kColorLightBackground = UIColor(red:0.14, green:0.27, blue:0.25, alpha:1.00)
-    static let kColorDarkBackground = UIColor(red:0.11, green:0.18, blue:0.19, alpha:1.00)
-    static let kColorLightFont = UIColor(red:0.42, green:0.98, blue:0.76, alpha:1.00)
-    static let kColorWhite = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.00)
-    static let kColorGrey = UIColor(red:0.39, green:0.40, blue:0.41, alpha:1.00)
-    static let kColorRed = UIColor.redColor()
+    static let kColorBackground = UIColor(red:0.06, green:0.08, blue:0.16, alpha:1.00)
+    static let kColorCellBackground = UIColor(red:0.1, green:0.12, blue:0.2, alpha:1.00)
+    static let kColorLightFont = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.00)
+    static let kColorGrayFont = UIColor(red:0.60, green:0.60, blue:0.60, alpha:0.60)
     
     //MARK:- Fonts
     
-    static let kFontHeader = UIFont.systemFontOfSize(UIFont.systemFontSize() + 6)
+    static let kFontHeader = UIFont.boldSystemFontOfSize(UIFont.systemFontSize() + 16)
     static let kFontNormal = UIFont.systemFontOfSize(UIFont.systemFontSize())
     static let kFontSmall = UIFont.systemFontOfSize(UIFont.smallSystemFontSize())
     
@@ -34,6 +30,8 @@ struct Constants {
     
     //MARK:- Keys
     static let kOpenWeatherMapAppID = "ad4e521f54b155390c178acc59582f10"
+    
+    static let kCityName = "Poznań"
 }
 
 //MARK: - Device recognize

@@ -8,7 +8,6 @@ use_frameworks!
 def import_common_pods
   pod 'Alamofire'  
   pod 'AlamofireObjectMapper'
-  pod 'KVNProgress'
   pod 'ObjectMapper'
   pod 'SDWebImage'
 end

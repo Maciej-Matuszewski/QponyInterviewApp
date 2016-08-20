@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1440EF581D67D2D800ECFD5B /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440EF571D67D2D800ECFD5B /* CustomLabel.swift */; };
 		147056801D6766F700C0F74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1470567F1D6766F700C0F74B /* AppDelegate.swift */; };
 		147056871D6766F700C0F74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147056861D6766F700C0F74B /* Assets.xcassets */; };
 		1470568A1D6766F700C0F74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147056881D6766F700C0F74B /* LaunchScreen.storyboard */; };
@@ -22,6 +23,7 @@
 		14CF68E31D677FE800CCD7F5 /* DayResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF68E21D677FE800CCD7F5 /* DayResultModel.swift */; };
 		14CF68E51D6783AE00CCD7F5 /* TemperatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF68E41D6783AE00CCD7F5 /* TemperatureModel.swift */; };
 		14CF68E71D678BE000CCD7F5 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF68E61D678BE000CCD7F5 /* WeatherModel.swift */; };
+		14CF68E91D67A2B400CCD7F5 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF68E81D67A2B400CCD7F5 /* WeatherCollectionViewCell.swift */; };
 		505B37579B31D32C3A2BCCAE /* Pods_QponyInterviewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0398878FD896FB462C64253 /* Pods_QponyInterviewApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		111E231BA26F8E5CC9BAE8AF /* Pods-QponyInterviewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QponyInterviewApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QponyInterviewApp/Pods-QponyInterviewApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1440EF571D67D2D800ECFD5B /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		1470567C1D6766F700C0F74B /* QponyInterviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QponyInterviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1470567F1D6766F700C0F74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		147056861D6766F700C0F74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		14CF68E21D677FE800CCD7F5 /* DayResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayResultModel.swift; sourceTree = "<group>"; };
 		14CF68E41D6783AE00CCD7F5 /* TemperatureModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureModel.swift; sourceTree = "<group>"; };
 		14CF68E61D678BE000CCD7F5 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		14CF68E81D67A2B400CCD7F5 /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
 		2D736EFAE2B41AE63FCC872F /* Pods-QponyInterviewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QponyInterviewApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QponyInterviewApp/Pods-QponyInterviewApp.release.xcconfig"; sourceTree = "<group>"; };
 		F0398878FD896FB462C64253 /* Pods_QponyInterviewApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QponyInterviewApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1440EF591D67E71E00ECFD5B /* Custom UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				1440EF571D67D2D800ECFD5B /* CustomLabel.swift */,
+			);
+			name = "Custom UI Elements";
+			sourceTree = "<group>";
+		};
 		147056731D6766F700C0F74B = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +134,8 @@
 			children = (
 				147056B11D6768DE00C0F74B /* Config */,
 				147056BD1D676CD300C0F74B /* ViewControllers */,
+				14CF68EA1D67A2BE00CCD7F5 /* Cells */,
+				1440EF591D67E71E00ECFD5B /* Custom UI Elements */,
 				147056BA1D67697800C0F74B /* Models */,
 				147056B71D67695A00C0F74B /* Network */,
 				147056B21D6768E800C0F74B /* Resources */,
@@ -194,6 +208,14 @@
 				147056BB1D676CCB00C0F74B /* WeatherViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		14CF68EA1D67A2BE00CCD7F5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				14CF68E81D67A2B400CCD7F5 /* WeatherCollectionViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		320E46A49C848B33868F7B96 /* Frameworks */ = {
@@ -404,6 +426,8 @@
 				14CF68E51D6783AE00CCD7F5 /* TemperatureModel.swift in Sources */,
 				147056B51D67695200C0F74B /* Network.swift in Sources */,
 				147056B91D67697300C0F74B /* ResponseModel.swift in Sources */,
+				1440EF581D67D2D800ECFD5B /* CustomLabel.swift in Sources */,
+				14CF68E91D67A2B400CCD7F5 /* WeatherCollectionViewCell.swift in Sources */,
 				147056801D6766F700C0F74B /* AppDelegate.swift in Sources */,
 				14CF68E71D678BE000CCD7F5 /* WeatherModel.swift in Sources */,
 			);
