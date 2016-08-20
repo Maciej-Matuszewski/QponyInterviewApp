@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.initialize()
         
         self.window = UIWindow.init(frame: UIScreen.mainScreen().bounds)
-        self.window?.rootViewController = WeatherViewController()
+        self.window?.rootViewController = ForecastViewController()
         self.window?.makeKeyAndVisible()
         
         return true

@@ -1,5 +1,5 @@
 //
-//  WeatherViewController.swift
+//  ForecastViewController.swift
 //  QponyInterviewApp
 //
 //  Created by Maciej Matuszewski on 19.08.2016.
@@ -10,7 +10,7 @@ import UIKit
 import SDWebImage
 import KVNProgress
 
-class WeatherViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+class ForecastViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     var daysArray : [DayResultModel] = []
 
@@ -115,7 +115,7 @@ class WeatherViewController: UIViewController, UICollectionViewDelegate, UIColle
     
     func fetchData(){
         
-        KVNProgress.showWithStatus("Please wait".localized)
+        KVNProgress.show()
         
         Network
             .ForecastDaily(city: Constants.kCityName, units: Units.metric, days: 7)
