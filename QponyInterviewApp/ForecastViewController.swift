@@ -27,6 +27,7 @@ class ForecastViewController: UIViewController, UICollectionViewDelegate, UIColl
         self.cityNameLabel.textColor = Constants.kColorLightFont
         self.cityNameLabel.font = Constants.kFontHeader
         self.cityNameLabel.textAlignment = .Center
+        self.cityNameLabel.hidden = true
         self.view.addSubview(self.cityNameLabel)
         
         self.view.addConstraints([
@@ -67,6 +68,7 @@ class ForecastViewController: UIViewController, UICollectionViewDelegate, UIColl
         self.collectionView.pagingEnabled = true
         self.collectionView.backgroundColor = UIColor.clearColor()
         self.collectionView.registerClass(WeatherCollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        self.collectionView.hidden = true
         self.view.addSubview(self.collectionView)
         
         self.view.addConstraints([
@@ -134,7 +136,10 @@ class ForecastViewController: UIViewController, UICollectionViewDelegate, UIColl
                     self.cityNameLabel.text = cityName
                     self.daysArray = days
                     self.collectionView.reloadData()
-                    KVNProgress.showSuccess()
+                    KVNProgress.showSuccessWithCompletion({ 
+                        self.cityNameLabel.hidden = false
+                        self.collectionView.hidden = false
+                    })
                     self.performSelector(#selector(self.fetchData), withObject: nil, afterDelay: 600)
                 }else{
                     KVNProgress.showError()

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension String {
     var localized: String {
@@ -42,5 +43,23 @@ extension NSDate {
         return days == 0 ? "Today".localized :
         days == 1 ? "Tomorrow".localized :
         self.dateToString("dd MMMM")
+    }
+}
+
+extension UIColor {
+    func isLight() -> Bool
+    {
+        if CGColorGetNumberOfComponents(self.CGColor) > 2{
+            let components = CGColorGetComponents(self.CGColor)
+            let brightness = (components[0] * 299 + components[1] * 587 + components[2] * 114)
+            return brightness > 500
+        }else{
+            
+            var white : CGFloat = 0
+            self.getWhite(&white, alpha: nil)
+            return white >= 0.5
+        }
+        
+        
     }
 }

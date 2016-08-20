@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1440EF581D67D2D800ECFD5B /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440EF571D67D2D800ECFD5B /* CustomLabel.swift */; };
+		1440EF5B1D685ABC00ECFD5B /* CustomButtonExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440EF5A1D685ABC00ECFD5B /* CustomButtonExampleViewController.swift */; };
+		1440EF5D1D685B1300ECFD5B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1440EF5C1D685B1300ECFD5B /* CustomButton.swift */; };
 		147056801D6766F700C0F74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1470567F1D6766F700C0F74B /* AppDelegate.swift */; };
 		147056871D6766F700C0F74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147056861D6766F700C0F74B /* Assets.xcassets */; };
 		1470568A1D6766F700C0F74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147056881D6766F700C0F74B /* LaunchScreen.storyboard */; };
@@ -47,6 +49,8 @@
 /* Begin PBXFileReference section */
 		111E231BA26F8E5CC9BAE8AF /* Pods-QponyInterviewApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QponyInterviewApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QponyInterviewApp/Pods-QponyInterviewApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1440EF571D67D2D800ECFD5B /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		1440EF5A1D685ABC00ECFD5B /* CustomButtonExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonExampleViewController.swift; sourceTree = "<group>"; };
+		1440EF5C1D685B1300ECFD5B /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		1470567C1D6766F700C0F74B /* QponyInterviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QponyInterviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1470567F1D6766F700C0F74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		147056861D6766F700C0F74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				1440EF571D67D2D800ECFD5B /* CustomLabel.swift */,
+				1440EF5C1D685B1300ECFD5B /* CustomButton.swift */,
 			);
 			name = "Custom UI Elements";
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				147056BB1D676CCB00C0F74B /* ForecastViewController.swift */,
+				1440EF5A1D685ABC00ECFD5B /* CustomButtonExampleViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -417,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1440EF5B1D685ABC00ECFD5B /* CustomButtonExampleViewController.swift in Sources */,
 				147056BC1D676CCB00C0F74B /* ForecastViewController.swift in Sources */,
 				147056AF1D67687F00C0F74B /* Constants.swift in Sources */,
 				147056B01D67687F00C0F74B /* Extensions.swift in Sources */,
@@ -430,6 +437,7 @@
 				14CF68E91D67A2B400CCD7F5 /* WeatherCollectionViewCell.swift in Sources */,
 				147056801D6766F700C0F74B /* AppDelegate.swift in Sources */,
 				14CF68E71D678BE000CCD7F5 /* WeatherModel.swift in Sources */,
+				1440EF5D1D685B1300ECFD5B /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
