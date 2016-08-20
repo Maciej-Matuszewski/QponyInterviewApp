@@ -10,6 +10,7 @@ def import_common_pods
   pod 'AlamofireObjectMapper'
   pod 'ObjectMapper'
   pod 'SDWebImage'
+  pod 'KVNProgress'
 end
 
 target 'QponyInterviewApp' do

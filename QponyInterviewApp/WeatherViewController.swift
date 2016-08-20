@@ -106,14 +106,17 @@ class WeatherViewController: UIViewController, UICollectionViewDelegate, UIColle
         
     }
     
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
         self.fetchData()
     }
     
     //MARK:- Load data
     
     func fetchData(){
+        
+        KVNProgress.showWithStatus("Please wait".localized)
+        
         Network
             .ForecastDaily(city: Constants.kCityName, units: Units.metric, days: 7)
             .URLRequest
@@ -124,15 +127,18 @@ class WeatherViewController: UIViewController, UICollectionViewDelegate, UIColle
                         let cityName = response?.city?.name,
                         let days = response?.days
                         else{
+                            KVNProgress.showError()
                             print("Data is missing!")
                             return
                     }
                     self.cityNameLabel.text = cityName
                     self.daysArray = days
                     self.collectionView.reloadData()
+                    KVNProgress.showSuccess()
                     self.performSelector(#selector(self.fetchData), withObject: nil, afterDelay: 600)
                 }else{
-                    self.performSelector(#selector(self.fetchData), withObject: nil, afterDelay: 10)
+                    KVNProgress.showError()
+                    self.performSelector(#selector(self.fetchData), withObject: nil, afterDelay: 15)
                 }
             }
     }

@@ -13,7 +13,6 @@ struct Constants {
     
     //MARK:- Colors
     
-    static let kColorMain = UIColor(red:0.09, green:1.00, blue:0.76, alpha:1.00)
     static let kColorBackground = UIColor(red:0.06, green:0.08, blue:0.16, alpha:1.00)
     static let kColorCellBackground = UIColor(red:0.1, green:0.12, blue:0.2, alpha:1.00)
     static let kColorLightFont = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.00)

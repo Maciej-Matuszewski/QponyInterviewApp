@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KVNProgress
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        self.initialize()
         
         self.window = UIWindow.init(frame: UIScreen.mainScreen().bounds)
         self.window?.rootViewController = WeatherViewController()
@@ -37,6 +40,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
     }
 
+    func initialize(){
+        let config = KVNProgressConfiguration.init()
+        config.backgroundTintColor = Constants.kColorBackground
+        config.circleStrokeForegroundColor = Constants.kColorLightFont
+        config.successColor = Constants.kColorLightFont
+        config.statusColor = Constants.kColorLightFont
+        config.errorColor = Constants.kColorLightFont
+        config.statusFont = Constants.kFontNormal
+        config.fullScreen = true
+        KVNProgress.setConfiguration(config)
+    }
 
 }
 
